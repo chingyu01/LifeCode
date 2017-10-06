@@ -18,6 +18,7 @@ class MainViewController: UIViewController {
         DetailViewController
         //把segue.destination強制轉型成detailViewController
         
+       // controller.name = button.currentTitle //把按鈕上的名字傳過去
          
     }
        override func viewDidLoad() {

@@ -19,30 +19,42 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        func viewDidLoad() {
+            super.viewDidLoad()
+            
+            // Do any additional setup after loading the view.
+        }
+        
         if name == "1" {
             NameImage.image = UIImage(named: "n1")
-            DetailLabel.text = "爸爸"
+            DetailLabel.text =
+                               "生命靈數1之優點︰獨立、積極、創造、領導、能量，富創意與理解力"
+            
+            
+            
         } else if name == "2" {
             NameImage.image = UIImage(named: "n2")
-            DetailLabel.text = "媽媽"
+            DetailLabel.text = "優點︰敏感、體貼、柔順、"
+                                "和諧、依賴，個性內斂，善於分工合作，"
+                                "重視群體關係，喜歡受到別人肯定 "
+            
+           
         } else{
             NameImage.image = UIImage(named: "n3")
-            DetailLabel.text = "小孩"
+            DetailLabel.text = "優點︰行動、樂觀、自信、表現 \n"
+                               " 聰明機警，有創意，多具有藝術天份"
+            
         }
     
     
     
     
     
-    
-        func viewDidLoad() {
-        super.viewDidLoad()
+  
 
-        // Do any additional setup after loading the view.
-    }
-
-        func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+        //func didReceiveMemoryWarning() {
+        //super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
@@ -58,4 +70,4 @@ class DetailViewController: UIViewController {
     */
     }
     
-}
+

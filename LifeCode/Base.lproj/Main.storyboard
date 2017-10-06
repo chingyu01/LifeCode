@@ -41,7 +41,6 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ImN-Lw-YcG">
                                 <rect key="frame" x="102" y="279" width="152" height="198"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="2"/>
                                 <connections>
                                     <segue destination="xxO-i4-y5n" kind="show" id="4UZ-Wn-rt9"/>
                                 </connections>
@@ -49,7 +48,6 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mKh-Vb-RY6">
                                 <rect key="frame" x="102" y="474" width="152" height="193"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="3"/>
                                 <connections>
                                     <segue destination="xxO-i4-y5n" kind="show" id="saL-GU-cNP"/>
                                 </connections>
@@ -74,7 +72,7 @@
             </objects>
             <point key="canvasLocation" x="650.39999999999998" y="111.99400299850076"/>
         </scene>
-        <!--Detail View Controller-->
+        <!--生命靈數-->
         <scene sceneID="qB2-kq-XQ9">
             <objects>
                 <viewController id="xxO-i4-y5n" customClass="DetailViewController" customModule="LifeCode" customModuleProvider="target" sceneMemberID="viewController">
@@ -94,11 +92,11 @@
                                 </items>
                             </navigationBar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BTF-6l-p5t">
-                                <rect key="frame" x="0.0" y="64" width="375" height="176"/>
+                                <rect key="frame" x="39" y="97" width="336" height="347"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pGq-3T-B0A">
-                                <rect key="frame" x="0.0" y="248" width="375" height="419"/>
+                                <rect key="frame" x="0.0" y="452" width="375" height="215"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -108,6 +106,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="emx-BH-ZHG"/>
                     </view>
+                    <navigationItem key="navigationItem" title="生命靈數" id="6Rd-Uy-3ZC"/>
                     <connections>
                         <outlet property="DetailLabel" destination="pGq-3T-B0A" id="9Wr-je-n6M"/>
                         <outlet property="NameImage" destination="BTF-6l-p5t" id="Yzk-81-U35"/>
