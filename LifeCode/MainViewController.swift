@@ -17,6 +17,8 @@ class MainViewController: UIViewController {
         _ = segue.destination as!
         DetailViewController
         //把segue.destination強制轉型成detailViewController
+        
+         
     }
        override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +29,8 @@ class MainViewController: UIViewController {
        override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
+        
     }
     
 
