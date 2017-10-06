@@ -10,6 +10,10 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    @IBOutlet var NumberLabel: [UILabel]!// 數字
+    @IBOutlet weak var DetailImage: UIImageView!//詳解
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
