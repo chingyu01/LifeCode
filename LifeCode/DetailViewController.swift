@@ -35,14 +35,13 @@ class DetailViewController: UIViewController {
             
         } else if name == "2" {
             NameImage.image = UIImage(named: "n2")
-            DetailLabel.text = "優點︰敏感、體貼、柔順、"
-                                "和諧、依賴，個性內斂，善於分工合作，"
-                                "重視群體關係，喜歡受到別人肯定 "
+            
+            DetailLabel.text = "優點︰敏感、體貼、柔順、\n和諧、依賴，個性內斂，善於分工合作，\n重視群體關係，喜歡受到別人肯定"
             
            
         } else{
             NameImage.image = UIImage(named: "n3")
-            DetailLabel.text = "優點︰行動、樂觀、自信、表現 \n"
+            DetailLabel.text = "優點︰行動、樂觀、自信、表現 "
                                " 聰明機警，有創意，多具有藝術天份"
             
         }
