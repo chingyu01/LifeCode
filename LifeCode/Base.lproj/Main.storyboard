@@ -41,6 +41,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ImN-Lw-YcG">
                                 <rect key="frame" x="102" y="279" width="152" height="198"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="2"/>
                                 <connections>
                                     <segue destination="xxO-i4-y5n" kind="show" id="4UZ-Wn-rt9"/>
                                 </connections>
@@ -48,6 +49,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mKh-Vb-RY6">
                                 <rect key="frame" x="102" y="474" width="152" height="193"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="3"/>
                                 <connections>
                                     <segue destination="xxO-i4-y5n" kind="show" id="saL-GU-cNP"/>
                                 </connections>

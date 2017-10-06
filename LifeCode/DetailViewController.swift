@@ -15,7 +15,7 @@ class DetailViewController: UIViewController {
 
     @IBOutlet weak var DetailLabel: UILabel!
     
-    var name = String()
+    var name: String!
     
     override func viewDidLoad() {
         super.viewDidLoad()

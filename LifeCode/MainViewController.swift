@@ -13,12 +13,11 @@ class MainViewController: UIViewController {
     
        override func prepare(for segue: UIStoryboardSegue, sender:
         Any?) {
-        _ = sender as! UIButton //把sender傳遞過來的資料強制轉型成UIButton的型態
-        _ = segue.destination as!
+        let button = sender as! UIButton //把sender傳遞過來的資料強制轉型成UIButton的型態
+        let controller = segue.destination as!
         DetailViewController
         //把segue.destination強制轉型成detailViewController
-        
-       // controller.name = button.currentTitle //把按鈕上的名字傳過去
+        controller.name = button.currentTitle //把按鈕上的名字傳過去
          
     }
        override func viewDidLoad() {
