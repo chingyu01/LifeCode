@@ -29,19 +29,23 @@ class DetailViewController: UIViewController {
         if name == "1" {
             NameImage.image = UIImage(named: "n1")
             DetailLabel.text =
-                               "生命靈數1之優點︰獨立、積極、創造\n領導、能量\n富創意與理解力"
+                               "生命靈數1之優點︰\n獨立、積極、創造\n領導、能量\n富創意與理解力"
             
             
             
         } else if name == "2" {
             NameImage.image = UIImage(named: "n2")
             
-            DetailLabel.text = "優點︰敏感、體貼、柔順\n和諧、依賴，個性內斂，善於分工合作，\n重視群體關係，喜歡受到別人肯定"
+            DetailLabel.text =
+            
+            "生命靈數2之優點︰\n敏感、體貼、柔順\n和諧、依賴，個性內斂，善於分工合作，\n重視群體關係，喜歡受到別人肯定"
             
            
         } else{
             NameImage.image = UIImage(named: "n3")
-            DetailLabel.text = "優點︰行動、樂觀、自信、表現\n聰明機警，有創意，多具有藝術天份"
+            DetailLabel.text =
+            
+            "生命靈數3之優點:\n行動、樂觀、自信、表現\n聰明機警，有創意，多具有藝術天份"
             
         }
     
